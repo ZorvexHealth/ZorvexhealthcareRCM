@@ -185,7 +185,7 @@ function Footer() {
           </div>
 
           <div className="footer-bottom-right">
-            Design with love © Hippocrates. All right reserved
+            Design with love © Hippocreates. All right reserved
           </div>
         </div>
       </footer>
