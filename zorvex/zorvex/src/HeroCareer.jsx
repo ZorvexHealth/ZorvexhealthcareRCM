@@ -196,7 +196,7 @@ function HeroCareer() {
 
           <h1 className="career-heading">
             Work with us.
-            <img src={leaf} alt="leaf" className="career-leaf" />
+            <img src={leaf} alt="leaf" className="career-leaf mb-4" />
           </h1>
 
           <p className="career-description">
