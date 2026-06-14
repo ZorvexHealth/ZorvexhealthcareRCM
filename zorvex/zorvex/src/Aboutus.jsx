@@ -181,7 +181,7 @@ function Aboutus() {
           </h2>
 
           <p className="about-subtitle">
-            Helping healthcare providers thrive, through smarter revenue cycle management.
+            Helping healthcare providers thrive, through smarter RCM.
           </p>
         </div>
 
