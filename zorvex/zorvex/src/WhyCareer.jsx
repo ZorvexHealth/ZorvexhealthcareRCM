@@ -192,7 +192,7 @@ function WhyCareer() {
 
       <section className="why-career">
         <div className="why-header">
-          <div className="why-tag">Your Path to Real Change</div>
+          <div className="why-tag">YOUR PATH TO REAL CHANGE</div>
 
           <h2 className="why-title">
             Why Choose Zorvex?
