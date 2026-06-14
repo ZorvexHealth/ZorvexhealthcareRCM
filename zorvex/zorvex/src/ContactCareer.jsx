@@ -399,7 +399,7 @@ function ContactCareer() {
 
               <h2 className="career-title">
                 <div className="career-line-one">
-                  Build Your
+                  Build Your 
                   <img src={leaf} alt="leaf" className="career-leaf mb-4" />
                 </div>
 
