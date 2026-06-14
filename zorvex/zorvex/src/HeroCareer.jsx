@@ -192,7 +192,7 @@ function HeroCareer() {
 
       <section className="career-hero">
         <div className="career-content mt-0">
-          <div className="career-tag">Career</div>
+          <div className="career-tag">CAREER</div>
 
           <h1 className="career-heading">
             Work with us.
