@@ -252,7 +252,7 @@ function Popup({ closePopup }) {
 
           color:#3fa55b;
 
-          font-size:70px;
+          font-size:50px;
 
           cursor:pointer;
 
