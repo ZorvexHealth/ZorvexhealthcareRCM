@@ -454,7 +454,7 @@ function Popup({ closePopup }) {
                 <div className="popup-tag">GET STARTED</div>
 
                 <div className="popup-title-row">
-                  <h1 className="popup-title">Better revenue starts here.</h1>
+                  <h1 className="popup-title">Reach out today.</h1>
 
                   <img src={singleLeaf} alt="" className="single-leaf mb-4" />
                 </div>
