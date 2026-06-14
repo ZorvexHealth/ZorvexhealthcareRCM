@@ -395,7 +395,7 @@ function ContactCareer() {
         <div className="career-contact-wrapper">
           <div className="career-left">
             <div>
-              <div className="career-tag">Grow with us</div>
+              <div className="career-tag">GROW WITH US</div>
 
               <h2 className="career-title">
                 <div className="career-line-one">
