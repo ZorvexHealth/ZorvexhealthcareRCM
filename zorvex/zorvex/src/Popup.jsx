@@ -491,7 +491,7 @@ function Popup({ closePopup }) {
                       disabled={!canProceed()}
                       onClick={handleNext}
                     >
-                      ›
+                      <i className="fas fa-chevron-right"></i>
                     </button>
                   </div>
                 </div>
@@ -522,7 +522,7 @@ function Popup({ closePopup }) {
                       disabled={!canProceed()}
                       onClick={handleNext}
                     >
-                      ›
+                      <i className="fas fa-chevron-right"></i>
                     </button>
                   </div>
                 </div>
@@ -554,7 +554,7 @@ function Popup({ closePopup }) {
                       disabled={!canProceed()}
                       onClick={handleNext}
                     >
-                      ›
+                      <i className="fas fa-chevron-right"></i>
                     </button>
                   </div>
                 </div>
