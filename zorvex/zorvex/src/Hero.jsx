@@ -188,7 +188,7 @@ function Hero({ openPopup }) {
         <div className="hero-overlay"></div>
 
         <div className="hero-content">
-          <div className="hero-tag">ZORVEX'S</div>
+          <div className="hero-tag">ZORVEX</div>
 
           <h1 className="hero-title">
             Focus on Patients,
