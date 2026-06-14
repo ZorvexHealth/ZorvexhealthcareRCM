@@ -196,7 +196,7 @@ function WhyCareer() {
 
           <h2 className="why-title">
             Why Choose Zorvex?
-            <img src={leaf} alt="leaf" className="why-leaf" />
+            <img src={leaf} alt="leaf" className="why-leaf mb-4" />
           </h2>
 
           <p className="why-subtitle">
