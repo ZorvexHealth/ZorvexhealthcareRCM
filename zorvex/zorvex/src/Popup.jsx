@@ -453,7 +453,7 @@ function Popup({ closePopup }) {
             ×
           </button>
 
-          {!submitted ? (
+                    {!submitted ? (
             <div className="popup-content">
               <div className="popup-header">
                 <div className="popup-tag">GET STARTED</div>
@@ -494,7 +494,7 @@ function Popup({ closePopup }) {
                       disabled={!canProceed()}
                       onClick={handleNext}
                     >
-                      <i className="fas fa-chevron-right"></i>
+                      ›
                     </button>
                   </div>
                 </div>
@@ -525,7 +525,7 @@ function Popup({ closePopup }) {
                       disabled={!canProceed()}
                       onClick={handleNext}
                     >
-                      <i className="fas fa-chevron-right"></i>
+                      ›
                     </button>
                   </div>
                 </div>
@@ -557,7 +557,7 @@ function Popup({ closePopup }) {
                       disabled={!canProceed()}
                       onClick={handleNext}
                     >
-                      <i className="fas fa-chevron-right"></i>
+                      ›
                     </button>
                   </div>
                 </div>
@@ -607,3 +607,4 @@ function Popup({ closePopup }) {
 }
 
 export default Popup;
+
