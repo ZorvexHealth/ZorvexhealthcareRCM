@@ -269,6 +269,9 @@ function Popup({ closePopup }) {
           opacity:.4;
           cursor:not-allowed;
         }
+        .next-btn i{
+          color:#3fa55b;
+        }
 
         .challenge-area{
   width:520px;
