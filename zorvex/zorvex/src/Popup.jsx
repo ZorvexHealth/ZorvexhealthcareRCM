@@ -243,7 +243,9 @@ function Popup({ closePopup }) {
         .next-btn{
           width:58px;
           height:58px;
-
+          align-items:center;
+          justify-content:center;
+          mrgin-top:0px;
           border:none;
 
           border-radius:10px;
