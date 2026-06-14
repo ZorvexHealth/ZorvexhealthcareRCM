@@ -400,7 +400,7 @@ function ContactCareer() {
               <h2 className="career-title">
                 <div className="career-line-one">
                   Build Your
-                  <img src={leaf} alt="leaf" className="career-leaf" />
+                  <img src={leaf} alt="leaf" className="career-leaf mb-4" />
                 </div>
 
                 <div className="career-line-two">Future With Us</div>
