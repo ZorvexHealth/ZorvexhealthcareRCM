@@ -65,6 +65,7 @@ function Footer() {
           }
 
           .social-icons a{
+          color: #F3F3F3;
   display:inline-block;
   transition:transform .3s ease;
 }
