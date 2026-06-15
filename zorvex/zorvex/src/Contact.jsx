@@ -326,10 +326,16 @@ function Contact({ openPopup }) {
           cursor:pointer;
           transition:.3s;
         }
-
-        .career-social a:hover i{
-  transform: translateY(-3px);
+        .career-social a{
+  display:inline-block;
+  transition:transform .3s ease;
 }
+
+.career-social a:hover{
+  transform:translateY(-3px);
+}
+
+
 
           @media(max-width: 992px){
 
@@ -380,16 +386,37 @@ function Contact({ openPopup }) {
                 <span>+1 341 237 3271</span>
               </div>
               <div className="career-social">
-                <i className="bi bi-linkedin"></i>
                 <a
+  href="https://www.linkedin.com/company/zorvexhealthcare/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="bi bi-linkedin"></i>
+</a>
+
+<a
   href="https://www.instagram.com/zorvexhealthcare/"
   target="_blank"
   rel="noopener noreferrer"
 >
   <i className="bi bi-instagram"></i>
 </a>
-                <i className="bi bi-facebook"></i>
-                <i className="bi bi-twitter-x"></i>
+
+<a
+  href="https://www.facebook.com/zorvexhealthcare"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="bi bi-facebook"></i>
+</a>
+
+<a
+  href="https://x.com/wearezorvex"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="bi bi-twitter-x"></i>
+</a>
               </div>
             </div>
           </div>
