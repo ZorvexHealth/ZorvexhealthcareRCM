@@ -327,9 +327,9 @@ function Contact({ openPopup }) {
           transition:.3s;
         }
 
-        .career-social i:hover{
-          transform:translateY(-3px);
-        }
+        .career-social a:hover i{
+  transform: translateY(-3px);
+}
 
           @media(max-width: 992px){
 
