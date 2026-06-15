@@ -381,7 +381,13 @@ function Contact({ openPopup }) {
               </div>
               <div className="career-social">
                 <i className="bi bi-linkedin"></i>
-                <i className="bi bi-instagram"></i>
+                <a
+  href="https://www.instagram.com/zorvexhealthcare/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i className="bi bi-instagram"></i>
+</a>
                 <i className="bi bi-facebook"></i>
                 <i className="bi bi-twitter-x"></i>
               </div>
