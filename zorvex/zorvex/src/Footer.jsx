@@ -64,17 +64,15 @@ function Footer() {
             margin-top: 15px;
           }
 
-          .social-icons a {
-            color: white;
-            font-size: 18px;
+          .social-icons a{
+  display:inline-block;
+  transition:transform .3s ease;
+}
 
-            transition: .3s;
-          }
-
-          .social-icons a:hover {
-            transform: translateY(-2px);
-            opacity: .8;
-          }
+.social-icons a:hover{
+  transform:translateY(-3px);
+}
+          
 
           .footer-divider {
             margin: 40px auto 30px;
@@ -155,23 +153,38 @@ function Footer() {
             <p>+1 341 237 3271</p>
 
             <div className="social-icons">
-              <a href="#">
-                <i className="bi bi-instagram"></i>
-              </a>
+  <a
+    href="https://www.instagram.com/zorvexhealthcare/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i className="bi bi-instagram"></i>
+  </a>
 
-              <a href="#">
-                <i className="bi bi-linkedin"></i>
-              </a>
+  <a
+    href="https://www.linkedin.com/company/zorvexhealthcare/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i className="bi bi-linkedin"></i>
+  </a>
 
-              <a href="#">
-                <i className="bi bi-facebook"></i>
-              </a>
+  <a
+    href="https://www.facebook.com/zorvexhealthcare"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i className="bi bi-facebook"></i>
+  </a>
 
-              {/* X (Twitter) */}
-              <a href="#">
-                <i className="bi bi-twitter-x"></i>
-              </a>
-            </div>
+  <a
+    href="https://x.com/wearezorvex"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i className="bi bi-twitter-x"></i>
+  </a>
+</div>
           </div>
         </div>
 
