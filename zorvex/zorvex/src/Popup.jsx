@@ -443,6 +443,74 @@ function Popup({ closePopup }) {
   transform:translate(-50%,-50%);
 
   width:65%;
+  @media (max-width: 768px) {
+
+  .popup-container{
+    width: 95%;
+    height: auto;
+    min-height: 80vh;
+    padding: 30px 20px;
+  }
+
+  .popup-header{
+    width: 100%;
+    margin-top: 40px;
+    text-align: left;
+  }
+
+  .popup-title{
+    font-size: 58px;
+  }
+
+  .single-leaf{
+    height: 45px;
+  }
+
+  .popup-description{
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .question-screen,
+  .question-wrapper,
+  .challenge-area{
+    position: static;
+    transform: none;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .question-wrapper{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .question{
+    font-size: 18px;
+  }
+
+  .question-input{
+    font-size: 16px;
+  }
+
+  .next-btn{
+    width: 52px;
+    height: 52px;
+  }
+
+  .challenge-text{
+    width: 100%;
+    max-width: 100%;
+    height: 130px;
+  }
+
+  .bottom-leaf{
+    width: 180px;
+    left: -20px;
+    bottom: 0;
+    opacity: 0.2; /* prevents covering content */
+  }
+}
 }
         `}
       </style>
