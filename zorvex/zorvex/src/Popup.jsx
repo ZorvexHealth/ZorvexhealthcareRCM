@@ -366,16 +366,15 @@ function Popup({ closePopup }) {
         }
 
         .bottom-leaf{
-          position:absolute;
+  position:absolute;
+  left:-30px;
+  bottom:-1px;
 
-          left:-30px;
-          bottom:-1px;
+  width:clamp(120px, 25vw, 300px);
 
-          width:300px;
-          z-index:5;
-
-          pointer-events:none;
-        }
+  z-index:5;
+  pointer-events:none;
+}
         .question-screen{
   position:absolute;
 
