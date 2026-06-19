@@ -181,8 +181,10 @@ function Popup({ closePopup }) {
         }
 
         .single-leaf{
-          height:70px;
-        }
+  height:clamp(32px, 6vw, 70px);
+  width:auto;
+  flex-shrink:0;
+}
 
         .popup-description{
           color:rgba(255,255,255,.85);
