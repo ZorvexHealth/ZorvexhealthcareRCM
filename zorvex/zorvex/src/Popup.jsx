@@ -513,6 +513,37 @@ function Popup({ closePopup }) {
   }
 }
 }
+@media (max-width: 768px) {
+
+  .question-wrapper{
+    position: static !important;
+
+    top: auto !important;
+    left: auto !important;
+
+    transform: none !important;
+
+    width: 100% !important;
+
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+  }
+
+  .question-screen{
+    position: static !important;
+
+    top: auto !important;
+    left: auto !important;
+
+    transform: none !important;
+
+    width: 100% !important;
+  }
+}
         `}
       </style>
 
