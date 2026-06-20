@@ -403,7 +403,7 @@ function Contact({ openPopup }) {
 </a>
 
 <a
-  href="https://www.facebook.com/zorvexhealthcare"
+  href="https://www.facebook.com/profile.php?id=61590586995650&mibextid=wwXIfr"
   target="_blank"
   rel="noopener noreferrer"
 >
