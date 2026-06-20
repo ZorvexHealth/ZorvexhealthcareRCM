@@ -2,7 +2,7 @@ import { useState } from "react";
 import leaf from "./assets/white-single-leaf.png";
 
 function FAQ() {
-  const [openIndex, setOpenIndex] = useState(0);
+  const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
     {
